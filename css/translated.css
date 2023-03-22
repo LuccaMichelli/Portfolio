@@ -1,0 +1,100 @@
+/*Import*/
+/*Misc*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+/*Variables*/
+/*Globales*/
+/*Body*/
+html {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #2C3E50; }
+
+span {
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: #000; }
+
+a {
+  color: #fff !important;
+  text-decoration: none; }
+
+a:hover {
+  opacity: 0.7; }
+
+img {
+  width: 100%; }
+
+h1, h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 3.5rem; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center; }
+
+@media (min-width: 980px) {
+  .dos-columnas {
+    display: flex;
+    justify-content: space-between; } }
+
+.entrada-blog {
+  flex: 0 0 calc(50% - 1rem); }
+
+/*pages*/
+.productos {
+  background-color: #fff;
+  padding: .5rem;
+  width: 100%; }
+
+.productos__nombre,
+.productos__precio {
+  font-family: "Quicksand", sans-serif;
+  margin: 1rem;
+  text-align: center;
+  line-height: 1.2; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); } }
+
+/*partials*/
+.fa-brands {
+  margin: 1rem; }
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding-top: 5rem; }
+
+.btn {
+  width: 17%;
+  color: #000 !important;
+  background-color: #fff !important;
+  padding: 1rem;
+  font-weight: bold !important; }
+
+.center {
+  text-align: center;
+  padding-top: 9rem; }
