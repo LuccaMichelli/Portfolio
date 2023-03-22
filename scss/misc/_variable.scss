@@ -23,10 +23,14 @@ body {
 span {
     font-size: 1.2rem;
 }
+ul {
+    color: $blanco;
+    list-style-type: none;
+}
 p {
-    font-size: 1.5rem;
-    margin: 1rem;
-    color: $negro;
+    font-size: 1rem;
+    margin: .3rem;
+    color: $blanco;
 }
 a {
     color: $blanco !important;
@@ -53,4 +57,14 @@ h3 {
     font-size: 1.5rem;
     color: $blanco;
     text-align: center;
+}
+h4 {
+    color: $blanco;
+    text-align: start;
+    margin: 1rem;
+}
+h5 {
+    color: $blanco;
+    text-align: start;
+    margin: .3rem !important;
 }
