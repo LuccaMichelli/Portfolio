@@ -87,12 +87,12 @@ h5 {
   padding: .5rem;
   width: 100%; }
 
-.productos__nombre,
-.productos__precio {
+.productos__nombre {
   font-family: "Quicksand", sans-serif;
   margin: 1rem;
   text-align: center;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #000; }
 
 .grid {
   display: grid;
