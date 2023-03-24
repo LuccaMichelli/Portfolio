@@ -3767,6 +3767,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+  background-color: #2C3E50;
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
@@ -7290,6 +7291,7 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
+  padding: 1rem;
 }
 
 .w-auto {

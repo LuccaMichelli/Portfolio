@@ -36,16 +36,17 @@ a:hover {
 img {
   width: 100%; }
 
-h1, h2 {
+h1 {
+  font-size: 2.5rem;
   color: #fff;
   text-align: center;
-  padding-top: 3.5rem; }
-
-h1 {
-  font-size: 2.5rem; }
+  padding-top: 5.4rem; }
 
 h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 3.8rem; }
 
 h3 {
   font-size: 1.5rem;
